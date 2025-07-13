@@ -1,18 +1,58 @@
-## Getting Started
+# 🎮 Number Guessing Game - Java Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Objective
+The **Number Guessing Game** is a fun and interactive Java-based console application where the computer generates a random number between 1 and 100, and the user has to guess it. The game provides feedback on whether the user's guess is too high or too low and allows multiple rounds with scoring based on the number of attempts.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🔧 Tools Used
+- **Language**: Java  
+- **IDE**: Visual Studio Code  
+- **JDK**: Java Development Kit 17 or above  
+- **Build/Run**: Java CLI (javac & java commands) or VS Code Terminal  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🧩 Steps Performed
+1. **Random Number Generation**  
+   - The system generates a random number between 1 and 100 using Java’s `Random` class.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **User Input Handling**  
+   - The user is prompted to guess the number via console input.
+   - Input validation ensures the guess is within the valid range.
 
-## Dependency Management
+3. **Game Logic**  
+   - The system gives hints like “Too High” or “Too Low” based on the guess.
+   - A maximum of **10 attempts** is allowed per round.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Scoring System**  
+   - Points are awarded based on the number of attempts taken to guess the correct number.
+   - The fewer the attempts, the higher the score.
+
+5. **Multiple Rounds**  
+   - After each round, the user can choose to play again.
+   - The total score is accumulated and displayed at the end of all rounds.
+
+---
+
+## ✅ Outcome
+- A fully functional command-line Java game.
+- Enhances understanding of:
+  - Loops and conditionals
+  - Input handling with Scanner
+  - Random number generation
+  - Functions and modular design
+- Score tracking and replay functionality makes the game more engaging.
+
+---
+
+## 🚀 How to Run
+```bash
+javac NumberGuessingGame.java
+java NumberGuessingGame
+
+---
+
+## 👩‍💻 Author
+Ajitha Angelian J  
+[GitHub](https://github.com/AjithaAngelian) | [LinkedIn](https://www.linkedin.com/in/ajitha-angelian-j/)
