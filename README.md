@@ -51,8 +51,8 @@ The **Number Guessing Game** is a fun and interactive Java-based console applica
 javac NumberGuessingGame.java
 java NumberGuessingGame
 
----
 
-## 👩‍💻 Author
-Ajitha Angelian J  
-[GitHub](https://github.com/AjithaAngelian) | [LinkedIn](https://www.linkedin.com/in/ajitha-angelian-j/)
+
+👩‍💻 Author
+Ajitha Angelian J
+GitHub | LinkedIn
