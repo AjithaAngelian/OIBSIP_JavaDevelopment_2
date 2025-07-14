@@ -9,7 +9,7 @@ The **Number Guessing Game** is a fun and interactive Java-based console applica
 - **Language**: Java  
 - **IDE**: Visual Studio Code  
 - **JDK**: Java Development Kit 17 or above  
-- **Build/Run**: Java CLI (javac & java commands) or VS Code Terminal  
+- **Build/Run**: Java CLI (`javac` & `java` commands) or VS Code Terminal  
 
 ---
 
@@ -50,9 +50,8 @@ The **Number Guessing Game** is a fun and interactive Java-based console applica
 ```bash
 javac NumberGuessingGame.java
 java NumberGuessingGame
+```
 
-
-
-👩‍💻 Author
-Ajitha Angelian J
-GitHub | LinkedIn
+## 👩‍💻 Author
+Ajitha Angelian J  
+[GitHub](https://github.com/AjithaAngelian) | [LinkedIn](https://www.linkedin.com/in/ajitha-angelian-j/)
